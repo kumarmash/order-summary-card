@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  background: url(../images/pattern-background-desktop.svg) repeat-x, radial-gradient(circle, rgb(216 223 255), rgba(216, 233, 255, 0.57));
+  background-repeat: repeat-x;
+  line-height: 1.5em;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(224, 23%, 55%);
+}
+
+h2,
+.description,
+h4,
+.amount {
+  margin: 0;
+}
+
+main {
+  max-width: 26em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1em;
+  align-items: center;
+  flex: 1;
+  box-shadow: hsl(221deg 75% 52% / 28%) 0 3em 2em -2em;
+}
+
+.main-image {
+  max-width: 100%;
+  border-radius: 1em 1em 0 0;
+  min-width: 22em;
+}
+
+
+.description {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em;
+}
+
+.subscription {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 1em;
+  padding: 1em 0;
+  width: 100%;
+}
+
+.change-link{
+    margin-left:1.5em;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+.proceed-btn {
+  font-size: 1em;
+  font-weight: 900;
+  background-color: hsl(245, 75%, 52%);
+  padding: 1em;
+  border-radius: 0.8em;
+  border-style: none;
+  margin: 1.5em 0;
+  color: hsl(225, 100%, 98%);  
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  width: 100%;
+  
+}
+
+.cancel-btn {
+  border-style: none;
+  padding: 0.5em 4em;
+  font-weight: 900;
+  text-decoration: none;
+  color:hsl(224, 23%, 55%);
+}
+
+h2,
+h4 {
+  color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 23em) {
+
+body{
+    background: url(../images/pattern-background-mobile.svg) repeat-x, radial-gradient(circle, hsl(237deg 69% 70% / 60%), rgba(216, 233, 255, 0.57));
+     background-repeat: repeat-x;
+    background-position: center;
+  
+}
+  .order-summary {
+    padding: 2.5em;
+  }
+
+
+}
+
+/* Adding Hover effect */
+
+.change-link:hover
+{
+    color: hsl(258, 75%, 52%);
+}
+
+.proceed-btn:hover{
+    background-color: hsl(258, 75%, 52%);
+
+}
+
+.cancel-btn:hover{
+    color: hsl(223, 47%, 23%);;
+}
+
+
+
