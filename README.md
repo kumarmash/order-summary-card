@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kumarmash/order-summary-card)
-- Live Site URL: [Add live site URL here](https://kumarmash.github.io/order-summary-card/)
+- Solution URL: [https://github.com/kumarmash/order-summary-card]
+- Live Site URL: [https://kumarmash.github.io/order-summary-card/]
 
 ## My process
 
